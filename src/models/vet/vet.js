@@ -1,5 +1,5 @@
 const yup = require('yup');
-const Person = require('../person');
+const Person = require('../shared/person');
 const Specialty = require('./specialty');
 
 const vetSchema = Person.schema.shape({
