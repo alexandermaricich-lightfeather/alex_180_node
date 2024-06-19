@@ -11,5 +11,4 @@ const ownerSchema = Person.schema.shape({
 
 module.exports = {
     schema: ownerSchema,
-    validate: ownerSchema.validate,
 };
